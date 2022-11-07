@@ -2,7 +2,11 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        custom: '-12px 0 rgba(0,0,0,0.3)'
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 }
